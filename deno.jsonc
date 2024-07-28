@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "tauri": "deno run -A npm:@tauri-apps/cli@next",
+    "vite": "deno run -A npm:vite@latest"
+  }
+}
