@@ -1,18 +1,21 @@
+# required
+- perl
+
 # deno
 
 ## init
 ```sh
-deno task tauri dev --no-watch
+psh deno task tauri dev --config "'{ \\\"build\\\": { \\\"devUrl\\\": \\\"http://localhost:4173\\\", \\\"beforeDevCommand\\\": \\\"deno task vite preview\\\" } }'"
 ```
 
 ## dev
 ```sh
-deno task tauri dev
+psh deno task tauri dev
 ```
 
 ## build
 ```sh
-deno task tauri build
+psh deno task tauri build
 ```
 
 # React + TypeScript + Vite
